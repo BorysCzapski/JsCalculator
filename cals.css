@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Quicksand:wght@500&display=swap');
+body{
+  background-color: papayawhip;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
+.calculator{
+  background-color: snow;
+  border-radius: 10px;
+  height: 443px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.screen{
+  width: 80%;
+  height: 248px;
+  background-color: snow;
+  font-size: 40px;
+  text-align: end;
+  padding: 4px;
+  margin-top: 20px;
+}
+.buttons{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+font-family: 'Quicksand', sans-serif;
+}
+button { 
+  border:none;
+  color: #484848;
+  font-size: 30px;
+  font-weight: bold;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin: 1px;
+  transition: 400ms ease;
+  font-family: 'Quicksand', sans-serif;
+}
+button:hover{
+  background-color: lightgray;
+}
+button:active{
+  background-color: lightgray;
+}
+#equals{
+  background-color: 	#48D1CC ;
+}
+#equals:hover{
+  background-color: #48D1CC ;
+}
+.special{
+  background-color: 	#D0D0D0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.special:hover{
+  background-color: gray;
+}
+#mode, #del{
+  font-size: 0px;
+}
+.dark{
+  background-color:#303030;
+}
+.dark-btn{
+  background-color: #303030;
+  color: white;
+}
+.dark-lcd{
+  background-color: #303030;
+  color: white;
+}
