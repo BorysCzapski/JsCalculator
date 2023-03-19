@@ -32,6 +32,7 @@ grid-template-rows: repeat(4, 1fr);
 grid-column-gap: 10px;
 grid-row-gap: 10px;
 font-family: 'Quicksand', sans-serif;
+margin-bottom: 20px;
 }
 button { 
   border:none;
