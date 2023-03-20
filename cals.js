@@ -13,7 +13,7 @@ function calculate(button){
   const value = button.textContent;
   if (value === "C"){
     calculation = [];
-    screenDisplay.textContent = "";
+    screenDisplay.textContent = ".";
   } 
   else if (value === "="){
     
