@@ -45,6 +45,9 @@ button {
   margin: 1px;
   transition: 400ms ease;
   font-family: 'Quicksand', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 button:hover{
   background-color: lightgray;
