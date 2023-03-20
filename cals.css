@@ -86,15 +86,8 @@ button:active{
     font-size: 20px;
   }
 
-  button {
-    width: 40px;
-    height: 40px;
+  button 
     font-size: 20px;
-  }
-
-  .screen {
-    height: 150px;
-    font-size: 30px;
   }
 }
 
